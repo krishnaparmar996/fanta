@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: orangered;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    z-index: 999;
+    padding: 0vw 10vw;
+ 
+}
+nav a,i{
+    text-decoration: none;
+    font-size: 2vw;
+    color: aliceblue;
+}
+.cnav{
+    display: flex;
+    gap: 3vw;
+}
+.one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(orange,rgb(243, 212, 15),rgb(178, 73, 49));
+}
+.one>h1{
+    font-size: 16vw;
+    color: white;
+
+}
+#fanta{
+   z-index: 2;
+   position: absolute;
+    width: 25%;
+    margin-top: 50px;
+}
+#orange-cut{
+    width: 11%;
+    top: 10%;
+    z-index: 1;
+    left: 38%;
+    position: absolute;
+}
+#orange22{
+    width: 13%;
+    position: absolute;
+    z-index: 3;
+    top: 65%;
+    right: 35%;
+
+}
+ 
+#leaf1{
+    transform: rotate(60deg);
+    position: absolute;
+    width: 15%;
+    top: 15%;
+    left: 5%;
+}
+#leaf31{
+    position: absolute;
+    width: 15%;
+    top: 60%;
+    left: 70%;
+    transform: rotate(-40deg);
+}
+#cleaf{
+    position: absolute;
+    width: 20%;
+    top: 0%;
+    right: 0%;
+}
+.two{
+    width: 100%;
+    display: flex;
+     justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: rgb(200, 89, 89);
+
+ }
+.ltwo{
+    width: 50%;
+    height: 100%;
+ }
+ .ltwo>svg{
+    width: 70%;
+    margin-top: 40vh;
+    transform: rotatex(70deg);
+ }
+.rtwo{
+    width: 50%;
+    height: 100%;
+ }
+ .rtwo h1{
+    margin-top: 90px;
+    color: white;
+    
+ }
+ .rtwo p{
+     color: white;
+     width: 70%;
+    
+ }
+ .three{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    background-color: yellowgreen;
+ }
+ .card{
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    gap: 12px;
+     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: bisque;
+ }
+ .card>h1{
+    font-size: 22px;
+    margin-top: 40vh;
+ }
+ .card>button{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 22px;
+ }
+ .card>#cocacola{
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    border-radius: 22px;
+ }
+ .card>#pepsi{
+    position: absolute;
+    top: 10%;
+ }
+.card>#lemon{
+    width: 20vw;
+    position: absolute;
+    top: 0%;
+}
+.card>.mlemon{
+    width: 20vw;
+    position: absolute;
+    top: 0%;
+} 
